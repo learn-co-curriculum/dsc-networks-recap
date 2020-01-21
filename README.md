@@ -1,18 +1,14 @@
 
-# Networks - Recap
+# Graph Theory - Recap
 
 ## Introduction
 
-In this section you got to explore a new data structure: networks! While network analysis is a deep topic with many additional topics to explore, you should have a good initial introduction and enough to conduct some preliminary analyses for social networks and building recommendation systems.
+In this section you explored a new data structure: networks! While network analysis is a deep topic with many additional topics to explore, you should have a good initial introduction and enough to conduct some preliminary analyses for social networks and building recommendation systems.
 
-## Objectives
-
-You will be able to:
-* Give an overview of techniques and terms for network data
 
 ## Networks
 
-You've seen that networks can represent a range of different underlying data. From directions, social networks and customer databases, networks are a wonderful way to represent the relationships between individuals. They also make for some snazzy visuals!
+You've seen that networks can represent a range of different underlying data. From directions, social networks, and customer databases, networks are a wonderful way to represent the relationships between individuals. They also make for some snazzy visuals!
 
 ## Paths
 
@@ -20,13 +16,12 @@ The first stop along your journey was paths! Here, you investigated Dijkstra's a
 
 ## Centrality
 
-Once you had a metric to calculate the distance between nodes, you then started to investigate other central concepts 
-of networks such as which nodes were most influential or connected within a graph. You saw how alternative metrics can provide different insights on node structure. As a quick recap:
+Once you had a metric to calculate the distance between nodes, you then started to investigate other important concepts of networks such as which nodes were most influential or connected within a graph. You saw how alternative metrics can provide different insights on node structure. As a quick recap:
 
-* **Degree-centrality**: The number of edges attached to a node
-* **Closeness-centrality**: The reciprocal of the sum of the distances to all other nodes in the network 
-* **Betweeness-centrality**: The number of shortest paths between all node pairs the node lies on divided by the maximum number of shortests-paths any one node in the network lies on.
-* **Eigenvalue-centrality**: An iterative algorithm which assigns relative influence to a node based on the number and importance of connected nodes. Can be very computationally expensive to compute for large networks. Google's pagerank algorithm is a variation of eigenvalue-centrality.
+- **Degree-centrality**: The number of edges attached to a node
+- **Closeness-centrality**: The reciprocal of the sum of the distances to all other nodes in the network 
+- **Betweeness-centrality**: The number of shortest paths between all node pairs the node lies on divided by the maximum number of shortests-paths any one node in the network lies on 
+- **Eigenvalue-centrality**: An iterative algorithm which assigns relative influence to a node based on the number and importance of connected nodes. Can be very computationally expensive to compute for large networks. Google's PageRank algorithm is a variation of eigenvalue-centrality 
 
 ## Clustering
 
@@ -34,7 +29,7 @@ After discussing centrality, you then focused on larger structures within a netw
 
 ## Recommendations
 
-Finally, you rounded out the section by investigating how networks can be used to provide recommendations to users. To do this, you investigated a preliminary approach known as collaborative filtering, specifically exploring user based collaborative filtering in which similar users are identified and their preferences are used to generate recommendations to the user in question. There are many alternative approaches to recommendations systems such as using Singular Value Decomposition. 
+Finally, you rounded out the section by investigating how networks can be used to provide recommendations to users. To do this, you investigated a preliminary approach known as collaborative filtering, specifically exploring user-based collaborative filtering in which similar users are identified and their preferences are used to generate recommendations to the user in question. There are many alternative approaches to recommendations systems such as using Singular Value Decomposition. 
 
 ## Summary
 
